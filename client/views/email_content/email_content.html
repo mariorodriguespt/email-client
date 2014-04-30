@@ -1,0 +1,11 @@
+<template name="EmailContent">
+    {{#with email}}
+        <h1>{{subject}}</h1>
+        <small>from {{ sender_name }} to You</small> -
+        <small>{{ this.date }}</small>
+    <hr>
+    <p>
+        {{body}}
+    </p>
+    {{/with}}
+</template>

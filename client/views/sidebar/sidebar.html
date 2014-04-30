@@ -1,0 +1,10 @@
+<template name="Sidebar">
+  {{> loginButtons}}
+    <div>
+        <ul>
+            {{#each SideBarOptions}}
+                {{> SidebarItem}}
+            {{/each}}
+        </ul>
+    </div>
+</template>

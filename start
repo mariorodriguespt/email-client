@@ -1,0 +1,1 @@
+mrt run --settings config/development/settings.json
