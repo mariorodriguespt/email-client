@@ -10,11 +10,11 @@ Router.configure({
 });
 
 var IR_beforeHooks = {
-    checkIfUserIsLogged : function(){
+    checkIfUserIsLogged : function(pause){
         console.log('checkIfUserIsLogged called');
         if (!Meteor.user()){
-            this.render('login');
-            this.stop();
+            this.render('Login');
+            pause();
             console.log('Showing login screen');
         }
     }
@@ -40,7 +40,6 @@ Router.map(function () {
   this.route('email.inbox', {path: '/Inbox'});
 
   this.route('email.sent', {path: '/Sent'});
-  this.route('email.sent', {path: '/Sent/:_id'});
   this.route('email.trash', {path: '/Trash'});
   this.route('email.spam', {path: '/Spam'});
   this.route('settings', {path: '/Settings'});
