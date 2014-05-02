@@ -2,7 +2,9 @@
 /* Sent Publish Functions
 /*****************************************************************************/
 
-Meteor.publish('sent', function () {
-  // you can remove this if you return a cursor
-  this.ready();
+Meteor.publish('personal_sent_email', function () {
+  return Email.find({
+      user_id      : this.userId,
+      sent_by_user : true
+  });
 });

@@ -2,7 +2,9 @@
 /* Spam Publish Functions
 /*****************************************************************************/
 
-Meteor.publish('spam', function () {
-  // you can remove this if you return a cursor
-  this.ready();
+Meteor.publish('personal_spam_email', function () {
+    return Email.find({
+        user_id: this.userId,
+        spam   : true
+    });
 });

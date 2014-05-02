@@ -486,15 +486,6 @@
       "hash": "5a6de05b1ffb813a24129795507bb2ef958c85f8"
     },
     {
-      "path": "app/client/views/email_content/template.email_content.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/client/views/email_content/template.email_content.js?56c7a49f1c3f46f8d0ce1f5f19db60d5234bc566",
-      "size": 769,
-      "hash": "56c7a49f1c3f46f8d0ce1f5f19db60d5234bc566"
-    },
-    {
       "path": "app/client/views/email_inbox/template.email_inbox.js",
       "where": "client",
       "type": "js",
@@ -517,27 +508,27 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/email_sent/template.email_sent.js?faf09528a29c206efc4e654dd6392090c9389e30",
-      "size": 166,
-      "hash": "faf09528a29c206efc4e654dd6392090c9389e30"
+      "url": "/client/views/email_sent/template.email_sent.js?75a48007664d08d91834cce03b9b06a7621e499e",
+      "size": 953,
+      "hash": "75a48007664d08d91834cce03b9b06a7621e499e"
     },
     {
       "path": "app/client/views/email_spam/template.email_spam.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/email_spam/template.email_spam.js?f13f9d2aa7cfa608e917835cd1aed8dd00883637",
-      "size": 166,
-      "hash": "f13f9d2aa7cfa608e917835cd1aed8dd00883637"
+      "url": "/client/views/email_spam/template.email_spam.js?91fe5808d80ae7e67d328d117b1da4b729be41a4",
+      "size": 948,
+      "hash": "91fe5808d80ae7e67d328d117b1da4b729be41a4"
     },
     {
       "path": "app/client/views/email_trash/template.email_trash.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/email_trash/template.email_trash.js?537180d031dc064104e1f0bc3e6656829664680f",
-      "size": 169,
-      "hash": "537180d031dc064104e1f0bc3e6656829664680f"
+      "url": "/client/views/email_trash/template.email_trash.js?f53fe2e1af094ad87edfa7493f7434be8da4f291",
+      "size": 951,
+      "hash": "f53fe2e1af094ad87edfa7493f7434be8da4f291"
     },
     {
       "path": "app/client/views/login/template.login.js",
@@ -625,9 +616,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/email_content/email_content.js?1aa50797d268508ecd0586516a03cb5dba2a615a",
-      "size": 1079,
-      "hash": "1aa50797d268508ecd0586516a03cb5dba2a615a"
+      "url": "/client/views/email_content/email_content.js?269fc285fc88e8246ba780c13fedf56c6227b126",
+      "size": 1107,
+      "hash": "269fc285fc88e8246ba780c13fedf56c6227b126"
     },
     {
       "path": "app/client/views/email_inbox/email_inbox.js",
@@ -652,9 +643,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/email_sent/email_sent.js?4168538dc86796fbe4a8035140b62c6df8ed2a56",
-      "size": 801,
-      "hash": "4168538dc86796fbe4a8035140b62c6df8ed2a56"
+      "url": "/client/views/email_sent/email_sent.js?f658a1b2aa54a2d258c7465a0cc291889ed96387",
+      "size": 935,
+      "hash": "f658a1b2aa54a2d258c7465a0cc291889ed96387"
     },
     {
       "path": "app/client/views/email_spam/email_spam.js",
@@ -736,6 +727,33 @@
       "url": "/client/controllers/email_inbox.js?4732ebf09d5fac382ddff349129fe1015ca6e797",
       "size": 216,
       "hash": "4732ebf09d5fac382ddff349129fe1015ca6e797"
+    },
+    {
+      "path": "app/client/controllers/email_sent.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/email_sent.js?6cbd3b375b4e108c3216daf3f9a344f807ef109a",
+      "size": 220,
+      "hash": "6cbd3b375b4e108c3216daf3f9a344f807ef109a"
+    },
+    {
+      "path": "app/client/controllers/email_spam.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/email_spam.js?e6188a043ca207d54491f0c1816e73fde0d97062",
+      "size": 175,
+      "hash": "e6188a043ca207d54491f0c1816e73fde0d97062"
+    },
+    {
+      "path": "app/client/controllers/email_trash.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/controllers/email_trash.js?d30278d0b06fcd33ed6d1b246bf8a28dbed8f70f",
+      "size": 176,
+      "hash": "d30278d0b06fcd33ed6d1b246bf8a28dbed8f70f"
     },
     {
       "path": "app/both/app.js",
@@ -827,7 +845,7 @@
     {
       "path": "app.html",
       "where": "internal",
-      "hash": "616d77bb4d519e902f3c072ff9dcb82622bfbd94"
+      "hash": "549eea835e0fc6a29fd9096b90890fc1fa3e6063"
     }
   ]
 }

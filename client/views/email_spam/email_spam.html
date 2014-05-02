@@ -1,3 +1,22 @@
 <template name="EmailSpam">
-  client/views/email_spam/email_spam.html
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Spam</h1>
+        </div>
+        <div class="col-md-6 text-right">
+            <input type="text"/>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="list-group">
+                {{#each email}}
+                {{> EmailListItem}}
+                {{else}}
+                <h1>You have no Spam.</h1>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
 </template>

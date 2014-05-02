@@ -12,11 +12,11 @@ Template.EmailContent.events({
 
 Template.EmailContent.helpers({
     email: function(){
-        return Session.get('email');
+        return Session.get('currentViewingEmail');
     },
 
     showEmail : function(id){
-        Session.set('email', this.getEmail(id));
+        Session.set('currentViewingEmail', this.getEmail(id));
         console.log(this.email);
     },
 

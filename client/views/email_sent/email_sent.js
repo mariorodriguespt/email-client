@@ -17,6 +17,14 @@ Template.EmailSent.helpers({
    *    return Items.find();
    *  }
    */
+
+    email : function(){
+        return Email.find({},{
+            sort: {
+                date : -1
+            }
+        });
+    }
 });
 
 /*****************************************************************************/
